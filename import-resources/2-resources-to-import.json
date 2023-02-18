@@ -1,0 +1,9 @@
+[
+  {
+    "ResourceType": "AWS::Logs::LogGroup",
+    "LogicalResourceId": "MovingResource",
+    "ResourceIdentifier": {
+      "LogGroupName": "cfn-import-moving-resource-loggroup"
+    }
+  }
+]
