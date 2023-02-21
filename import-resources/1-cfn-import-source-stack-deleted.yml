@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+
+  SomeResource:
+    Type: AWS::Logs::LogGroup
+    DeletionPolicy: Delete
+    UpdateReplacePolicy: Delete
+    Properties:
+      LogGroupName: !Sub "${AWS::StackName}-${AWS::AccountId}-${AWS::Region}-some"

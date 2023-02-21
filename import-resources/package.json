@@ -1,0 +1,13 @@
+{
+  "name": "cfn-import-test",
+  "version": "0.0.1",
+  "dependencies": {
+    "@mhlabs/aws-sdk-sso": "^0.0.16",
+    "aws-organization-formation-client": "^0.1.1",
+    "aws-sdk": "^2.1282.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.17",
+    "ts-node": "^10.9.1"
+  }
+}
