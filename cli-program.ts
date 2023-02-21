@@ -14,6 +14,7 @@ import {
     ValidateStacksCommand,
     ValidateTasksCommand,
     RemoveCommand,
+    MigrateResourceTask,
 } from '~commands/index';
 import { PrintTasksCommand } from '~commands/print-tasks';
 
@@ -50,6 +51,7 @@ export class CliProgram {
         new InitPipelineCommand(this.program);
         new InitOrganizationCommand(this.program);
         new PerformTasksCommand(this.program);
+        new MigrateResourceTask(this.program);
         new PrintOrganizationCommand(this.program);
         new PrintTasksCommand(this.program);
         new PrintStacksCommand(this.program);
